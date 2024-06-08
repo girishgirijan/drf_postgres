@@ -1,0 +1,58 @@
+1. Create a text file (Ex: requirements.txt) with following.
+
+django
+djangorestframework
+environs
+
+2. Create project using following command.
+
+django-admin startproject mysite
+OR
+python3 -m Django startproject mysite // python3 or python
+
+3. Start app
+
+python manage.py startapp api
+
+4. Edit file mysite -> settings.py -> add 'app', 'rest_framework' in section INSTALLED_APPS
+
+5. For database
+
+python manage.py makemigrations
+python manage.py migrate
+
+6. Run server
+
+python manage.py runserver
+
+-----------------------------------------------------------------------
+
+pip install Django
+pip install djangorestframework
+pip install psycopg2
+
+django-admin startproject <project name>
+cd <project name>
+python manage.py startapp <app name>
+
+python manage.py makemigrations <app ame>
+python manage.py migrate
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
